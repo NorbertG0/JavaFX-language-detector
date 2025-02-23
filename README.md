@@ -17,3 +17,17 @@ Used technologies:
     </p>
 
 ## 🛠 Installation
+- **Register on [detectlanguage.com](https://detectlanguage.com/)**
+- **Get your API key**
+- **Install [JavaFX](https://openjfx.io/openjfx-docs/)**
+- **Downolad project file `Main.java`**
+- **Enter your API key in code**
+  
+  ```sh
+                String query = URLEncoder.encode(userInput, "UTF-8");
+                String apiKey = "your API key"; <---- Here
+                URL url = new URL("https://ws.detectlanguage.com/0.2/detect?q=" + query + "&key=" + apiKey);
+                HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+  ```
+- **Run the application**
+  
