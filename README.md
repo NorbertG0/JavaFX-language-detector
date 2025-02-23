@@ -1,1 +1,1 @@
-# JavFX-language-detector
+# 🌍 JavaFX-language-detector
